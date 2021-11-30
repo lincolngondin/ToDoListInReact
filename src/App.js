@@ -32,7 +32,7 @@ const InputItem = (props) => {
 
 function App() {
 	const [text, setText] = useState('');
-	const [items, setItems] = useState(['kjk','kjl']);
+	const [items, setItems] = useState([]);
 	
 	function handleInputChange(txt){
 		setText(txt);
